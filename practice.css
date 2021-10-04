@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    background: linear-gradient(to bottom right, rgb(51, 7, 51), black);
+}
+nav ul{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    box-shadow: 0 0 40px rgb(8, 8, 8);
+    background-color: rgba(63, 52, 52, 0.5);
+    list-style: none;
+}
+a{  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0 0 30px white;
+    color: rgb(177, 174, 174);
+    text-decoration: none;
+    transition: 0.2s ease-in;
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,0.2);  
+    box-shadow: 0 0 100px white;
+}
+.home{
+    text-shadow: 0 0 30px white;    
+}
+.home h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(128, 9, 82);
+    box-shadow: 0 0 30px rgba(88, 48, 70, 0.942);
+    border-radius: 35px;
+    position: relative;
+    color:white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    transition: 0.2s ease-out;
+}
+.home h1:hover{
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,0.2);  
+    box-shadow: 0 0 100px white;
+}
+.d2 {
+    border-radius: 10%;
+    margin-top: 100px;
+    padding-bottom: 100px;  
+    width: 90%;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;  
+    width: 80%;
+    background-image: url("./b37927985b2ad0606b5096e744a0741f--galaxies-sky.jpg");
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-size: cover;
+    box-shadow: 0 0 60px rgba(88, 48, 70, 0.942);
+    height: 300px;
+}
+.d3 h2{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+.d3 h2:hover{
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255,0.2);  
+    box-shadow: 0 0 100px white;
+}
+.d3 h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+section{
+    height: 150%;
+    display: flex;
+    justify-content: center;
+}
