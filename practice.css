@@ -6,23 +6,34 @@
 body{
     background: linear-gradient(to bottom right, rgb(51, 7, 51), black);
 }
-nav ul{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+header{
     height: 80px;
     width: auto;
     box-shadow: 0 0 40px rgb(8, 8, 8);
-    background-color: rgba(63, 52, 52, 0.5);
-    list-style: none;
+    background:rgb(56, 24, 56);
+    position: sticky;
+    top:0;
+    z-index: 1;
 }
-nav li{  
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    padding: 20px; 
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 0 0 30px white;
     color: rgb(177, 174, 174);
     text-decoration: none;
-    transition: 0.2s ease-in;
     font-weight: bold;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex: 20;
+    list-style: none;
+}
+nav li{
+    transition: 0.2s ease-in;
 }
 nav li:hover{
     color: white;
