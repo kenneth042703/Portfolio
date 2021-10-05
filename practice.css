@@ -43,7 +43,7 @@ nav li:hover{
     box-shadow: 0 0 100px white;
 }
 section{
-    height: 120vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     transition: 0.2s ease-in;
@@ -73,7 +73,7 @@ h1:hover{
 }
 .d2 {
     border-radius: 10%;
-    margin-top: 100px;
+    margin-top: 70px;
     padding-bottom: 100px;  
     width: 90%;
     height:100vh;
@@ -86,7 +86,7 @@ h1:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;  
+    margin-top: 10px;  
     width: 80%;
     background-image: url("./b37927985b2ad0606b5096e744a0741f--galaxies-sky.jpg");
     background-repeat: no-repeat;
@@ -127,7 +127,7 @@ h2{
     display: flex;
     align-self: center;
     flex-direction: column;
-    margin-top: 50px;  
+    margin-top: 10px;  
     width: 90%;
     background:black;
     background-repeat: no-repeat;

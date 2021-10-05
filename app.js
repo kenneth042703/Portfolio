@@ -4,4 +4,4 @@ links.forEach((item) => {
         const el = document.getElementById(item.getAttribute("data-link"));
         el.scrollIntoView({block:"start"})
     })
-})  
+})
