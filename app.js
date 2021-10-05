@@ -1,6 +1,7 @@
-let navhome = document.getElementById("navhome")
-let navinfo = document.getElementById("navinfo")
-let navprojects = document.getElementById("navprojects")
-let navcontacts = document.getElementById("navcontacts")
-let home = document.getElementById("home")
-let info = document.getElementById("info")
+const links = document.querySelectorAll(".scroll_to");
+links.forEach((item) => {
+    item.addEventListener("click", () => {
+        const el = document.getElementById(item.getAttribute("data-link"));
+        el.scrollIntoView({block:"start"})
+    })
+})  

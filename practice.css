@@ -18,6 +18,7 @@ header{
 nav{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 nav ul{
     padding: 30px; 
@@ -41,10 +42,14 @@ nav li:hover{
     background-color: rgba(255, 255, 255,0.2);  
     box-shadow: 0 0 100px white;
 }
-.home{
-    text-shadow: 0 0 30px white;    
+section{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in;
+    text-shadow: 0 0 30px white;  
 }
-.home h1{
+h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 50px;
     width: 150px;
@@ -60,7 +65,7 @@ nav li:hover{
     font-size: 30px;
     transition: 0.2s ease-out;
 }
-.home h1:hover{
+h1:hover{
     color: white;
     border-radius: 5px;
     background-color: rgba(255, 255, 255,0.2);  
@@ -71,17 +76,17 @@ nav li:hover{
     margin-top: 100px;
     padding-bottom: 100px;  
     width: 90%;
-    height:600px;
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.d3 {
+.d2 .d3 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;  
+    margin-top: 50px;  
     width: 80%;
     background-image: url("./b37927985b2ad0606b5096e744a0741f--galaxies-sky.jpg");
     background-repeat: no-repeat;
@@ -90,9 +95,9 @@ nav li:hover{
     box-shadow: 0 0 60px rgba(88, 48, 70, 0.942);
     height: 300px;
 }
-.d3 h2{
+h2{
     text-align: center;
-    font-size: 70px;
+    font-size: 60px;
     color: white;
     transition: 0.2s ease-in-out;
 }
@@ -105,14 +110,42 @@ nav li:hover{
 }
 .d3 h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
+    color: white;
+}   
+.d4{
+    margin-top: -100px;
+    border-radius: 10%;
+    padding-bottom: 100px;  
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d4 .d5 {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 50px;  
+    width: 90%;
+    background:black;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    background-size: cover;
+    box-shadow: 0 0 60px rgba(88, 48, 70, 0.942);
+    height: 1000px;
+}
+.p1{
+    font-size: 15px;
+    text-align:center;
+    margin-top: 20px;
     color: white;
 }
-section{
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-}
-#home{
-    scroll-behavior: smooth;
+.p2{
+    margin-top: -50px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:left;
+    color: white;
+    margin-left: -60px;
 }
