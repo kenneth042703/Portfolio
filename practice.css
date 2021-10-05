@@ -43,7 +43,7 @@ nav li:hover{
     box-shadow: 0 0 100px white;
 }
 section{
-    height: 100vh;
+    height: 120vh;
     display: flex;
     justify-content: center;
     transition: 0.2s ease-in;
@@ -100,6 +100,11 @@ h2{
     font-size: 60px;
     color: white;
     transition: 0.2s ease-in-out;
+}
+.d5 h2:hover{
+    color: white;
+    border-radius: 5px;
+    text-shadow: 0 0 50px white;
 }
 .d3 h2:hover{
     color: white;
