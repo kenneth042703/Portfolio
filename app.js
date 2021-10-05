@@ -1,0 +1,6 @@
+let navhome = document.getElementById("navhome")
+let navinfo = document.getElementById("navinfo")
+let navprojects = document.getElementById("navprojects")
+let navcontacts = document.getElementById("navcontacts")
+let home = document.getElementById("home")
+let info = document.getElementById("info")

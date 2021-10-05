@@ -98,7 +98,10 @@ nav li:hover{
     color: white;
 }
 section{
-    height: 150%;
+    height: 60vh;
     display: flex;
     justify-content: center;
+}
+#home{
+    scroll-behavior: smooth;
 }
